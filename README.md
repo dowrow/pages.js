@@ -6,7 +6,7 @@ Lightweight library to simplify navegation between screens in single-page apps
 How to use
 ==========
 
-First of all, design your app so that every screen is a ```<section>``` element wrapped into one single ```<main>``` element.
+First of all, design your app so that every screen is a ```<section>``` element wrapped into one single ```<main>``` element:
 
 ```html
 <body>
@@ -27,7 +27,7 @@ First of all, design your app so that every screen is a ```<section>``` element 
 </body>
 ```
 
-Then include the pages.js library at the end of the ```<body>```.
+Then include the pages.js library at the end of the ```<body>```:
 
 ```html
 <body>
@@ -50,7 +50,7 @@ Then include the pages.js library at the end of the ```<body>```.
 </body>
 ```
 
-Now you can navigate from one screen to another by adding links pointing to the _id_ of the desired screen:
+Now you can navigate from one screen to another by simply adding links pointing to the _id_ of the desired screen:
 
 ```html
 <body>
@@ -62,7 +62,7 @@ Now you can navigate from one screen to another by adding links pointing to the 
             </section>
             
             <section id="page2">
-                <a href="#page2">Go to page 3</a>
+                <a href="#page3">Go to page 3</a>
             </section>
             
             <section id="page3">
@@ -75,3 +75,7 @@ Now you can navigate from one screen to another by adding links pointing to the 
         
 </body>
 ```
+
+See this demo code working [here](http://jsfiddle.net/4ey7e/).
+
+Have fun!
